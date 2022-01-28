@@ -27,11 +27,14 @@ body {
 }
 
 #myicon{
-  font-size: 35px;
+  font-size: 400%;
+
 }
 
 #dropdownicon{
-  font-size: 30px;
+  font-size: 400%;
+
+
 }
 
 
@@ -41,7 +44,9 @@ body {
 
 .header .dropdown{
   position: relative;
-  height: 60px;
+  height: 100px;
+  width: 50%;
+  text-align: right;
 
 
 
@@ -62,6 +67,7 @@ body {
   font-size: 15px;
   font-weight: 400px;
   background-color: white;
+  width: 50%;
 }
 
 
@@ -95,12 +101,17 @@ body {
 .container{
   padding-top: 10px;
   width: 100%;
+  margin-top: 50px;
 }
 
 
 .section-title{
   font-size: 25px;
   font-weight: bolder;
+}
+
+.section-title p{
+  padding-left: 10px;
 }
 .section-info{
 
@@ -145,18 +156,25 @@ body {
   width: 100%;
 }
 
+.dummy-experience{
+  margin-top: 25%;
+}
+
 .experience{
   width: 100%;
   margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
 
 
-  height: 100px;
+
+  height: 25%;
 }
 .experience img{
-  width: 60px;
-  height : 90px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 60%;
+  height : auto;
+  padding-top: 20%;
+  padding-bottom: 20%;
 
 
 
@@ -166,8 +184,11 @@ body {
   width: 25%;
 
   padding: 5px;
-  height: 100px;
+  height: 100%;
   text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 
 
 }
@@ -177,8 +198,12 @@ body {
 
   padding: 5px;
   padding-left: 20px;
+  padding-top: 5%;
   border-left: 2px solid black;
-  height: 100px;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 
 .experience .info p{
@@ -203,7 +228,7 @@ body {
   text-align: center;
   position: relative;
   /* background-color: skyblue; */
-  padding-top: 20px;
+  padding-top: 15%;
   padding-bottom: 20px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px 0px gray;
@@ -215,7 +240,7 @@ body {
   height: auto;
   position: absolute;
   border-radius: 50%;
-  top : -30px;
+  top : -10%;
   left: 40%;
   /* border: 1px solid red; */
   z-index: 10;
@@ -249,4 +274,8 @@ footer{
   text-align: center;
   padding-top: 100px;
 
+}
+
+.footer i{
+  padding: 10px;
 }
